@@ -1,0 +1,18 @@
+.agree-box {
+    align-items: center;
+    display: flex;
+    font-size: .7rem;
+    gap: .25rem;
+    justify-content: center;
+    word-break: keep-all;
+}
+
+.agree-link a {
+    color: #fa709a;
+    text-decoration-color: #fa709a;
+    text-decoration-line: underline;
+}
+
+a {
+    text-decoration: none;
+}

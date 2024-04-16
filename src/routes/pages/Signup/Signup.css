@@ -1,0 +1,58 @@
+.layout-container {
+    background-color: #fff;
+    border: 1px solid #e0e3e8;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 720px;
+    position: relative;
+    width: 100%;
+}
+
+.layout-container .body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto ;
+}
+
+.body .body-wrap {
+    flex-grow: 1;
+}
+
+.signup-container {
+    background-color: #fff;
+    border: 1px solid #e0e3e8;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 720px;
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+}
+
+.signup-notice {
+    color: #666;
+    font-size: .7rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.signup-btn:disabled {
+    background-color: rgb(250, 112, 154);
+    border: 2px solid rgb(250, 112, 154);
+    cursor: not-allowed;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 2px solid rgb(250, 112, 154);
+    background-color: rgb(250, 112, 154);
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out 0s;
+}

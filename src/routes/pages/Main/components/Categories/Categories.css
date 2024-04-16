@@ -1,0 +1,30 @@
+.categories-button-container {
+    align-items: center;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    gap: .5rem;
+    justify-content: space-around;
+    padding: .5rem 2rem;
+}
+
+.categories-button {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+.category-link {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.category-link span {
+    font-weight: 500;
+    font-size: .7rem;
+    color: #000;
+}
+
+.category-link img {
+    width: 30%;
+}

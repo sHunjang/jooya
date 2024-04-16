@@ -1,0 +1,38 @@
+.mymenu-user {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: .6rem;
+    width: 100%;
+}
+
+.mymenu-user .user-need-signin {
+    align-items: center;
+    background-color: #efefef;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.mymenu-user .user-need-signin span {
+    flex: 6 1;
+    font-size: .8rem;
+}
+
+.user-signin-btn {
+    flex: 4 1;
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 2px solid rgb(250, 112, 154);
+    background-color: rgb(250, 112, 154);
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out 0s;
+    font-size: 0.8rem;
+    font-weight: 400;
+}

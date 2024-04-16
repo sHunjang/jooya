@@ -1,0 +1,10 @@
+.slick-list {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.slick-list img{
+    width: 100%;
+    height: 100%;
+}

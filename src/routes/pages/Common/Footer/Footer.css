@@ -1,0 +1,30 @@
+.footer-container {
+    width: 100%;
+    background-color: #dadada;
+    padding: 0.25rem;
+}
+
+.footer-container .footer-wrap {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: auto;
+    height: 100%;
+    padding: 0.25rem;
+}
+
+.footer-container .footer-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-container .footer-img img {
+    width: 20%;
+    opacity: 50%;
+}
+
+.footer-container .footer-btn {
+    font-size: 0.6rem;
+}
