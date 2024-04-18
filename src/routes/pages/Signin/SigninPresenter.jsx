@@ -12,10 +12,14 @@ import { BottomNav } from "../Common/BottomNav/BottomNav";
 import { Footer } from "../Common/Footer/Footer";
 
 
-const SigninPresenter = () => {
+const SigninPresenter = ({
+    title,
+}) => {
     return (
         <div className="layout-container">
-            <TopNav />
+            <TopNav>
+                
+            </TopNav>
             <BannerBox />
             <div className="body">
                 <div className="body-warp">

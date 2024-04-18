@@ -5,7 +5,7 @@ import './Signup.css';
 
 import { TopNav } from "../Common/TopNav/TopNav";
 import { BannerBox } from "../Common/Banner/BannerBox";
-import { SignupInput } from "./components/SignupInput/SignupInput";
+import { Input } from "../Common/Input/Input";
 import { AgreeBox } from "./components/Agreebox/AgreeBox";
 import { BottomNav } from "../Common/BottomNav/BottomNav";
 import { Footer } from "../Common/Footer/Footer";
@@ -23,7 +23,9 @@ const SignUpPresenter = () => {
                                 <span>아이디와 비밀번호를 입력해 회원이 되시면 <br />
                                     다양한 서비스를 이용할 수 있습니다.</span>
                             </div>
-                            <SignupInput />
+                            <div className="signup-input-container">
+                                <Input />
+                            </div>
                         </div>
                         <AgreeBox />
                         <div className="signup-wrap">
