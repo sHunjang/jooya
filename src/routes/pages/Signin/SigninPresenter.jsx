@@ -19,8 +19,8 @@ const SigninPresenter = () => {
             <div className="signin-box">
                 <TopNavHome />
                 <SigninInput />
-                <BottomNav />
             </div>
+            <BottomNav />
         </div>
     )
 }

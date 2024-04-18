@@ -13,7 +13,9 @@ export const SigninInput = () => {
             <div className="IdPw-input-box">
                 <input type="password" placeholder="비밀번호를 입력해주세요" />
             </div>
-            <button className="login-btn"><span className="login-text">로그인</span></button>
+            <button className="login-btn">
+                <span className="login-text">로그인</span>
+            </button>
             <div className="signin-function">
                 <a className="function" href="/signin">아이디 찾기</a>
                 <a className="function" href="/signin">비밀번호 찾기</a>
