@@ -7,6 +7,7 @@
     max-width: 720px;
     position: relative;
     width: 100%;
+    height: 100vh;
 }
 
 .layout-container .body {
@@ -14,15 +15,22 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    overflow: auto ;
+    overflow: auto;
 }
 
 .layout-container .body-wrap {
     flex-grow: 1;
 }
 
-.mymenu-container {
+.mymenu-container, .mymenu-container .mymenu-wrap {
     display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.mymenu-container {
     justify-content: center;
 }
 
@@ -30,8 +38,4 @@
     max-width: 410px;
     min-width: 360px;
     padding: 2rem;
-}
-
-.mymenu-container{
-    justify-content: center;
 }

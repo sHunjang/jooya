@@ -19,7 +19,7 @@ const Router = () => {
     /* 출력할 페이지 설정 부분 */
     return (
         /* 리액트의 경우 return에 존재하는 최상위 태그는 하나여야 한다. */
-        <div className="app">
+        <div className="App">
             {/* URL설정을 위한 태그 */}
             <Routes>
                 {/* 
