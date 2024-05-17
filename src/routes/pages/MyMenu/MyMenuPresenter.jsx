@@ -11,7 +11,11 @@ import { BottomNav } from "../Common/BottomNav/BottomNav";
 import { SigninInput } from "../Common/SinginInput/SigninInput";
 import { MymenuUser } from "./components/mymenu-user/MymenuUser";
 
-const MyMenuPresenter = () => {
+const MyMenuPresenter = ({
+
+    homeClick,
+
+}) => {
     return (
         <div className="layout-container">
             <TopNav />
@@ -29,7 +33,9 @@ const MyMenuPresenter = () => {
                 <Footer />
             </div>
             <div className="footer">
-                <BottomNav />
+                <BottomNav 
+                    homeClick={homeClick}
+                />
             </div>
         </div>
     )

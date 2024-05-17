@@ -10,10 +10,10 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    
+
 }
 
-.signin-input .IdPw-input-box input{
+.signin-input .IdPw-input-box input {
     width: 100%;
     padding: 0.8rem 1rem 0.7rem;
     border: 1px solid rgb(238, 238, 238);
@@ -42,17 +42,28 @@
     gap: 0.5rem;
 }
 
-.signin-function {
+.signin-input .signin-function {
+    color: #8e8e8e;
     display: flex;
-    gap: 1rem;
+    font-size: .7rem;
+    padding: 1rem 0;
     justify-content: center;
 }
 
-.function {
+.signin-input .signin-function .function {
     color: #8e8e8e;
     display: flex;
     font-size: .7rem;
     padding: 1rem 0;
     align-items: center;
     text-decoration: none;
+}
+
+.signin-input .signin-function .function::after {
+    background: #bfbfbf;
+    content: "";
+    display: inline-block;
+    height: .9rem;
+    margin: 0 .5rem;
+    width: 1px;
 }

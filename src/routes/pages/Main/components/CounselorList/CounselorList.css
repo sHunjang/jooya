@@ -68,13 +68,10 @@
 }
 
 .list2-wrap .list2-img img {
-    width: 100%;
-    height: 100%;
-
-    object-fit: fill;
-    /* margin-left: 0.1rem; */
-
     border-radius: 3px;
+    width: 100%;
+    object-fit: fill;
+    height: 100%;
 }
 
 .list2-img .list2-counselor-tag {

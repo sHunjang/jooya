@@ -14,12 +14,16 @@ import './Main.css';
 
 
 const MainPresenter = ({
+
     onClickImg,
-    
+    bannerClick,
+    myMenuClick,
+    homeClick,
+
 }) => {
     return (
         <div className="layout-container">
-            <BannerBox />
+            <BannerBox bannerClick={bannerClick}/>
             <TopNavHome />
             <div className="body">
                 <div className="body-wrap">
@@ -31,9 +35,7 @@ const MainPresenter = ({
                         <Categories />
                         <div className="counselor-lists">
                             <AntTabs />
-                            <CounselorList>
-                                
-                            </CounselorList>
+                            <CounselorList/>
                         </div>
                     </div>
                 </div>
@@ -42,7 +44,9 @@ const MainPresenter = ({
                 <Footer />
             </div>
             <div className="footer">
-                <BottomNav />
+                <BottomNav
+                    myMenuClick={myMenuClick}
+                />
             </div>
         </div>
     )

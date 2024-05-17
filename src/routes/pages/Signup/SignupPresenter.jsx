@@ -1,19 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-import SignupContainer from "./SignupContainer";
-import './Signup.css';
-
-import { TopNav } from "../Common/TopNav/TopNav";
 import { BannerBox } from "../Common/Banner/BannerBox";
+import { TopNav } from "../Common/TopNav/TopNav";
 import { Input } from "../Common/Input/Input";
 import { AgreeBox } from "./components/Agreebox/AgreeBox";
 import { BottomNav } from "../Common/BottomNav/BottomNav";
 import { Footer } from "../Common/Footer/Footer";
 
-const SignUpPresenter = () => {
+
+import './Signup.css';
+
+const SignUpPresenter = ({ 
+
+    myMenuClick,
+    title,
+    homeClick,
+
+}) => {
     return (
         <div className="layout-container">
-            <TopNav />
+            <TopNav title={title}/>
             <BannerBox />
             <div className="body">
                 <div className="body-wrap">
@@ -40,11 +46,13 @@ const SignUpPresenter = () => {
                 </div>
             </div>
             <div className="footer">
-                <BottomNav />
+                <BottomNav 
+                myMenuClick={myMenuClick}
+                homeClick={homeClick}
+                />
             </div>
         </div>
-
-    )
-}
+    );
+};
 
 export default SignUpPresenter;

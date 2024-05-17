@@ -13,13 +13,16 @@ import { Footer } from "../Common/Footer/Footer";
 
 
 const SigninPresenter = ({
+
+    myMenuClick,
+    homeClick,
     title,
 }) => {
     return (
         <div className="layout-container">
-            <TopNav>
-                
-            </TopNav>
+            <TopNav 
+                title={title}
+            />
             <BannerBox />
             <div className="body">
                 <div className="body-warp">
@@ -34,7 +37,10 @@ const SigninPresenter = ({
             <div className="body-footer">
                 <Footer />
             </div>
-            <BottomNav />
+            <BottomNav 
+                myMenuClick={myMenuClick}
+                homeClick={homeClick}
+            />
         </div>
     )
 }
